@@ -1,0 +1,10 @@
+@media (max-width: 435px) {
+  main {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .formulario {
+    max-width: 290px;
+  }
+} ;
