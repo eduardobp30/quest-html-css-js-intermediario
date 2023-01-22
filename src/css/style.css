@@ -63,6 +63,7 @@ main {
 
 .formulario .campos .input textarea {
   height: 100px;
+  resize: none;
 }
 
 .campo-obrigatorio-ativo {
@@ -88,6 +89,10 @@ main {
   font-weight: 700;
   border-radius: 5px;
   padding: 12px 0;
+}
+
+.formulario #submit-btn:hover {
+  cursor: pointer;
 }
 
 ::placeholder {
